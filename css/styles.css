@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  font-family: Verdana, Arial,sans-serif;
+  font-size: 1em;
+  background-color: #F9F6F0;
+  color: #2c2a27;
+  line-height: 1.6;
+}
+#wrapper {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+nav {
+  background-color: #121765;
+  height: 2em;
+  padding: 15px 20px 5px 20px; /* 15px top, 20px right,5 px bottom, 20px left */
+}
+nav a {
+  color: #F9F6F0;
+  text-align: center;
+  text-decoration: none;
+} 
+h1 {
+  font-size: 1.9em;
+  color: #961b15;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5em;
+  color: #121765;
+  text-align: center;
+}
+h3 {
+  font-size: 1.2em;
+  color: #121765;
+  text-align: center;;
+}
+p {
+  font-family: Tahoma;
+  font-size: 1.0em;
+  text-align: justify;
+  max-width: 65ch; 
+  margin-left: auto; 
+  margin-right: auto; /* These two margins center the block of text on the page */
+}
+ol {
+  font-family: Tahoma;
+  font-size: 1.0em;
+  text-align: justify;
+  max-width: 55ch; 
+  margin-left: auto; 
+  margin-right: auto; /* These two margins center the block of text on the page */
+}
+figcaption {
+  font-family: Tahoma;
+  font-size: small;
+  text-align: left;
+}
+.italics {
+  font-style: italic;
+}
+.textleft{
+  text-align: left;
+}
+.backgroundchange {
+  background-color: #F4EFE6;
+}
+a {
+  color: blue;             /* Makes the link text blue */
+}
+a:hover {
+  color: rgb(160, 233, 134); 
+        }        /* Changes the color slightly when the mouse is over it */
